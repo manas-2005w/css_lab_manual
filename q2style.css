@@ -1,0 +1,93 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Main styles */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    width: 300px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.item h2 {
+    margin-top: 10px;
+}
+
+.item p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.item span {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.item button {
+    display: block;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.item button:hover {
+    background-color: #555;
+}
+
+/* Aside (Cart) styles */
+aside {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+}
+
+.cart-items {
+    margin-bottom: 20px;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-total span {
+    font-weight: bold;
+}
